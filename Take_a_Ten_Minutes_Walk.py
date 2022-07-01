@@ -1,4 +1,3 @@
-
 def is_valid_walk(walk):
     dict = {'n': 0, 's': 0, 'w': 0, 'e': 0}
     if len(walk) != 10:
@@ -26,7 +25,7 @@ print(is_valid_walk(['n','n','n','s','n','s','n','s','n','s'])) # shoul return F
 def is_valid_walk(walk):
 
     if len(walk) !=10:
-            return False
+        return False
     if walk.count('n') == walk.count('s') and walk.count('w') == walk.count('e'):
         return True
     return False
